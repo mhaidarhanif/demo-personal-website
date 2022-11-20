@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <main>
+      <section id="contact-intro">
+        <h1>Contact</h1>
+        <p>Contact me at:</p>
+        <ul id="contact-links">
+          <li><a href="https://t.me/mhaidarhanif">@mhaidarhanif</a></li>
+          <li><a href="mailto:myname@example.com">myname@example.com</a></li>
+          <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+        </ul>
+      </section>
+
+      <form id="contact-form" class="">
+        <fieldset>
+          <legend>Your info</legend>
+          <div>
+            <label for="person-name">Name:</label>
+            <input
+              type="text"
+              name="person-name"
+              id="person-name"
+              placeholder="Elon Musk"
+            />
+          </div>
+          <div>
+            <label for="person-email">Email:</label>
+            <input
+              type="email"
+              name="person-email"
+              id="person-email"
+              placeholder="elon@spacex.com"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Your inquiry</legend>
+          <div>
+            <label for="message-subject">Subject:</label>
+            <input
+              type="text"
+              name="message-subject"
+              id="message-subject"
+              placeholder="Subject title"
+            />
+          </div>
+          <div>
+            <label for="message-content">Message:</label>
+            <textarea
+              name="message-content"
+              id="message-content"
+              cols="30"
+              rows="10"
+              placeholder="Enter your message here..."
+            ></textarea>
+          </div>
+        </fieldset>
+        <input type="submit" value="Send message" />
+      </form>
+
+      <div>
+        <h2>My office</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.665707905076!2d106.8271528!3d-6.1753924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d2ad6e1e0e9bcc8!2sNational%20Monument!5e0!3m2!1sen!2sid!4v1668951761674!5m2!1sen!2sid"
+          width="400"
+          height="300"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          frameborder="0"
+        ></iframe>
+        <iframe
+          src="https://maps.google.com/maps?q=Tokyo+Tower&width=100%&height=600&hl=en&ie=UTF8&t=&z=15&iwloc=B&output=embed"
+          loading="lazy"
+          width="400"
+          height="300"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        >
+        </iframe>
+      </div>
+    </main>
+  </body>
+</html>
